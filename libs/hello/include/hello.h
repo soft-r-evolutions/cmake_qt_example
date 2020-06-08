@@ -6,6 +6,9 @@ class Hello {
         Hello();
 
         void print() const;
+
+    private:
+        int m_attr;
 };
 
 #endif
